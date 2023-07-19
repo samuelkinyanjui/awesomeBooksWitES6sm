@@ -1,0 +1,199 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Comic Neue', sans-serif;
+  background-color: rgb(244, 242, 242);
+}
+
+/* ------- NAVBAR -------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  align-items: center;
+}
+
+#logo {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+
+#contain-nav-item {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+#nav-add-new {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 6px 0 6px;
+}
+
+.nav-item-a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.nav-item-a:hover {
+  color: rgb(87, 87, 168);
+}
+
+.nav-item-a:active {
+  color: rgb(145, 145, 222);
+}
+
+/* -------Section Contac ---------- */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  font-weight: 600;
+}
+
+.contact-p {
+  text-align: left;
+  margin-left: 20%;
+  font-weight: 600;
+}
+
+.contact-a {
+  text-align: left;
+  margin-left: 20%;
+  font-weight: 600;
+}
+
+/* -----Footer ------ */
+
+.footer {
+  border: 2px solid black;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  width: 98%;
+  height: 50px;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 1%;
+}
+
+.footer-h {
+  margin-left: 2%;
+}
+
+/* ------ Add New -------- */
+.add-new {
+  margin-bottom: 20px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+input {
+  position: relative;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 2px;
+  height: 30px;
+  font-family: 'Comic Neue', sans-serif !important;
+}
+
+#add {
+  position: relative;
+  width: 8%;
+  left: 21.5%;
+  border: 2px solid black;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+  border-radius: 2px;
+  height: 30px;
+  border-bottom: 3.5px solid black;
+  border-right: 3.5px solid black;
+}
+
+/* ----- List -------- */
+
+.list {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#list-books {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+}
+
+td {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  height: 36px;
+}
+
+.by {
+  font-size: 14px;
+}
+
+.btn-remove {
+  height: 24px;
+  margin-left: 44%;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+  border-bottom: 3.5px solid black;
+  border-right: 3.5px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #7b7b7b27;
+}
+
+.hiden {
+  display: none;
+}
+
+.timediv {
+  display: flex;
+  width: 12rem;
+  border-color: blue;
+  justify-content: right;
+  margin-left: 77%;
+}
+
+.class_timediv {
+  width: 12rem;
+  background-color: lightgrey;
+}
