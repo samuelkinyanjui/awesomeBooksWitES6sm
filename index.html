@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome-books</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#list" id="logo">Awesome Books</a>
+        <nav id="navbar">
+            <ul id="contain-nav-item">
+                <li id="nav-list" class="nav-item">
+                    <a id="nav-list-a" class="nav-item-a" href="#list">List</a>
+                </li>
+                <li id="nav-add-new" class="nav-item">
+                    <a id="nav-add-new-a" class="nav-item-a" href="#add-new">Add new</a>
+                </li>
+                <li id="nav-contact" class="nav-item">
+                    <a id="nav-contact-a" class="nav-item-a" href="#contac">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="timediv" id="timedivid"> </div>
+     <section id="list" class="list">
+        <h1>Awesome-books</h1>
+        <table id="list-books">
+      
+        </table>
+     </section>      
+     <section id="add-new" class="hiden add-new">
+        <h2>Add a new book</h2>
+        <form id="form" action="">
+            <input type="text" id="title"  class="from-control" name="title" placeholder="Title" required>
+            <input type="text" id="author"  name="author" placeholder="Author" required>
+            <button type="submit" id="add" placeholder="Add">Add</button>
+        </form>
+    </section>
+    <section class="contact hiden" id="contact">
+       <h2 class="contact-title">Contact information</h2>
+          <p class="contact-p">Do have any question or you just went to say "Hello"?<br> You can reach out to us! </p>
+            <ul class="contact-a">
+                <li class="contact-l">Oure-mail: mail@.com</li>
+                <li class="contact-l">Our phone number: 0043586534422</li>
+                <li class="contact-l">Our address: Streetname:22,84503 City, Country </li>
+            </ul>
+    </section>
+
+    <footer class="footer">
+        <h4 class="footer-h">Copyright ...</h4>
+    </footer>
+    <script type="module" src="index.js"></script>
+    
+    
+
+</body>
+</html>
